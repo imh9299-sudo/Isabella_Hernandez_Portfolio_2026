@@ -47,9 +47,15 @@ document.querySelectorAll(".clickable-img").forEach(img => {
   img.addEventListener("click", function() {
     modal.classList.add("show");
     modalImg.src = this.src;
-    captionText.innerText = this.alt || "";
+    
+    // Check for alt text first, otherwise pull from adjacent overlay text div
+    let overlay = this.nextElementSibling;
+    let caption = this.alt || (overlay && overlay.classList.contains('overlay-text') ? overlay.innerText : "");
+    
+    captionText.innerText = caption;
   });
 });
+
 closeBtn.onclick = function() {
   modal.classList.remove("show");
 }
