@@ -1,338 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Isabella Hernandez Art Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isabella Hernandez Art Portfolio</title>
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
 
-<!-- Link to CSS file -->
-<link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!------------------------- Home section ------------------------------>
-<!-- Header -->
- <div id="Home" class="art">
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px">
-  <img class="w3-image" src="Images/geodaNewPortrait.png" alt="Me" width="1500" height="600">
-
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center w3-animate-fading"
-       style="background: rgba(0,0,0,0.6);">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge w3-animate-fading">ISABELLA HERNANDEZ</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">ISABELLA HERNANDEZ</h5>
-    <h3 class="w3-hide-medium w3-hide-small w3-animate-fading">VISUAL ARTIST</h3>
-  </div>
-  </header>
-  </div>
-
-  <!-- Navbar (placed at the bottom of the header image) -->
+  <!-- Navbar -->
   <div class="w3-top">
-    <div class="w3-bar w3-black">
-
-        <!-- LOGO -->
-      <img id="myImage" src="Images/Final_Logo1.png" width="100"> 
+    <div class="w3-bar w3-black w3-card">
+      <!-- LOGO -->
+      <img id="myImage" src="Images/Final_Logo1.png" alt="Logo" style="max-height: 40px; width: auto;" class="w3-bar-item"> 
 
       <button class="w3-bar-item w3-button" onclick="openArt('Home')">Home</button>
       <button class="w3-bar-item w3-button" onclick="openArt('Collections')">Collections</button>
-            <button class="w3-bar-item w3-button" onclick="openArt('Projects')">Projects</button>
+      <button class="w3-bar-item w3-button" onclick="openArt('Projects')">Projects</button>
       <button class="w3-bar-item w3-button" onclick="openArt('graphicDesign')">Graphic Design</button>
       <button class="w3-bar-item w3-button" onclick="openArt('About')">About</button>
     </div>
   </div>
 
+  <!------------------------- Home section ------------------------------>
+  <div id="Home" class="art" style="padding-top: 50px;">
+    <header class="w3-display-container w3-content" style="max-width:1500px">
+      <img class="w3-image" src="Images/geodaNewPortrait.png" alt="Me" style="width:100%; height:auto;">
 
+      <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center w3-animate-fading"
+           style="background: rgba(0,0,0,0.6); max-width: 90%;">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge w3-animate-fading">ISABELLA HERNANDEZ</h1>
+        <h5 class="w3-hide-large" style="letter-spacing: 2px;">ISABELLA HERNANDEZ</h5>
+        <h3 class="w3-hide-medium w3-hide-small w3-animate-fading">VISUAL ARTIST</h3>
+      </div>
+    </header>
+  </div>
 
-<!-- Collections -->
-<div id="Collections" class="art">
-
-
-      <h1 class="w3-text-black w3-center w3-padding-32 "><b>Collections</b> </h1>
-         <p>This collection brings together digital and traditional works that merge ancestral reference with speculative worldbuilding. The character designs draw from pre-Columbian civilizations — ceremonial dress, ornament, palettes, and motifs — while integrating original fantasy concepts developed for a novel in progress, including invented races, clothing systems, physiognomies, and cosmologies. The same approach informs the landscapes, creatures, and constructed settings, where research-based visual heritage and fictional invention co-exist.
-Several environments are directly inspired by the cultural and natural landscapes of Guatemala, reflecting both personal origin and the enduring influence of Mesoamerican worldviews on this body of work. The collection positions heritage not as static history, but as a living source for imagining Indigenous futures.
+  <!-- Collections -->
+  <div id="Collections" class="art">
+    <h1 class="w3-text-black w3-center w3-padding-32"><b>Collections</b></h1>
+    <p>This collection brings together digital and traditional works that merge ancestral reference with speculative worldbuilding. The character designs draw from pre-Columbian civilizations — ceremonial dress, ornament, palettes, and motifs — while integrating original fantasy concepts developed for a novel in progress, including invented races, clothing systems, physiognomies, and cosmologies. The same approach informs the landscapes, creatures, and constructed settings, where research-based visual heritage and fictional invention co-exist.
+    Several environments are directly inspired by the cultural and natural landscapes of Guatemala, reflecting both personal origin and the enduring influence of Mesoamerican worldviews on this body of work. The collection positions heritage not as static history, but as a living source for imagining Indigenous futures.
     </p>
 
-      <h2 class="w3-text-black w3-center"><b>Character Design</b></h2>
+    <h2 class="w3-text-black w3-center"><b>Character Design</b></h2>
 
-
-
-  <!-- Images (Portfolio) -->
-   <!-- character design  -->
-  <div class="gallery">
-
-   <!-- image 1  -->
+    <!-- Images (Portfolio) -->
+    <div class="gallery">
       <div class="gallery-item">
-    <img src="Collections/newEman.png"  class="clickable-img">
-    <div class="overlay-text">An outcast disguised as a guardian. Her armor was designed to contrast the warm, red shades of the armor from the male guards. It's elegance and simplicty grants swift mobility and protection</div>
+        <img src="Collections/Eman.png" class="clickable-img" alt="Eman">
+        <div class="overlay-text">An outcast disguised as a guardian. Her armor was designed to contrast the warm, red shades of the armor from the male guards. It's elegance and simplicty grants swift mobility and protection</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/Svikari.png" class="clickable-img" alt="Svikari">
+        <div class="overlay-text">A member of the royal council, dressed as such. Her fabrics are embroidered with the richest of jewels and threads, but not too luxuirous to conserve modesty</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/Martnan.png" class="clickable-img" alt="Martnan">
+        <div class="overlay-text">A pilot dressed in the traditional armor for male guards. The rich reds and copper contrast the blue shades that define the armor for the female warriors. This design incorporates less armored plates, meant to facilitate the movement for long-range combat</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/outsiders.png" class="clickable-img" alt="Outsiders">
+        <div class="overlay-text">A setting found deep in a winter land, emotions clash with responsibility, with duty, and sorrow.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/acolyteNew2.png" class="clickable-img" alt="Acolyte">
+        <div class="overlay-text">The highest-ranking guardian. An Acolyte of the Mother's descdendant. The mask, an ornament of tradition and power, paired with a modest cloak, offer a glimpse of the mysteries hidden within</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/volcanoNew.png" class="clickable-img" alt="Volcano">
+        <div class="overlay-text">An instrument of power, producing a melody of war, a resonance of strength, a call for a warrior.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/violin(2).png" class="clickable-img" alt="Violin">
+        <div class="overlay-text">Painted by sunlight, the violin becomes one with nature.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/surrealismMayaNew.png" class="clickable-img" alt="Surrealism Maya">
+        <div class="overlay-text">Engulfed by a blend of colors, the mayan warrior prepares himself for a game of life and death.</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/skull.jpeg" class="clickable-img" alt="Skull Titan">
+        <div class="overlay-text">Driven by duty, this titan protects the delicate ecosystem around it, a creature of strength, resilence, and power no mortal can fight</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/processSkull.png" class="clickable-img" alt="Process Skull">
+        <div class="overlay-text">Process sketch of the Skull Titan</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Collections/scales.jpg" class="clickable-img" alt="Scales">
+        <div class="overlay-text">Inspired by the illustrations and tales of Xibalba, the underworld of the Mayan culture, this landscape incorporates elements from tales and combines them with the scales of life and death from Ancient Egyptian mythology, producing a new story</div>
+      </div>
+
+      <div class="gallery-item quote-layout">
+        <div class="quote-box">
+          “There is nothing wrong with creating a fantasy out of reality”
+        </div>
+      </div>
+    </div>   <!-- closing gallery --> 
+  </div>   <!-- closing COLLECTIONS --> 
+
+  <!-- PROJECTS CONTENT -->
+  <div id="Projects" class="w3-container art w3-margin-top">
+    <h1 class="w3-text-black w3-center w3-padding-32"><b>Projects</b></h1>
+
+    <h2 class="w3-text-black w3-center">Evocation 2025</h2>
+    <p>This project began with an unexpected encounter at a wall site, where fragments of a demolished building—glass, sand, seashells, and debris—revealed traces of personal and historical presence rather than absence. Drawn to these remnants, I explored how fragments function as conduits for memory, evoking a sense of the whole without fully reconstructing it. Using materials collected from the site alongside ceramic elements of my own making, I translated selected moments from conversations with former residents and the landlord into visual compositions depicting everyday yet intimate scenes of domestic life, labor, and aspiration. Influenced by practices that merge memory, imagination, and materiality, the work takes the form of a puzzle-like assemblage, reflecting the fragmented nature of memory itself. Rather than offering a complete narrative, the pieces act as material repositories, storing, honoring, and quietly gesturing toward the lives that once inhabited the now-demolished space.</p>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="Evocation/0.jpeg" class="clickable-img" alt="Wall site">
+        <div class="overlay-text">Site of the Wall near Burjeel Hospital</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Evocation/0-1.jpeg" class="clickable-img" alt="Stones">
+        <div class="overlay-text">Collection of stones from the site</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Evocation/0-3.jpeg" class="clickable-img" alt="Ceramic process">
+        <div class="overlay-text">Process of making and painting the ceramic pieces with clay, glazing paint, and etching tools</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Evocation/0-11.jpeg" class="clickable-img" alt="Final composition">
+        <div class="overlay-text">Final composition of the ceramic pieces</div>
+      </div>
     </div>
 
-     <!-- image 2  -->
-     <div class="gallery-item">
-  <img src="Collections/Svikari.png"  class="clickable-img">
-     <div class="overlay-text">A member of the royal council, dressed as such. Her fabrics are embroidered with the richest of jewels and threads, but not too luxuirous to conserve modesty</div>
-</div>
+    <!-- Move second project section OUTSIDE the previous gallery container -->
+    <h2 class="w3-text-black w3-center w3-margin-top">What the Hands Remember 2025</h2>
+    <p>Sensorial memories are a language of their own, spoken through the textures of sand, the scent of spice, the fragrance of perfume, and the gesture of hands. Rooting from a cultural journey of the UAE, these paintings gather the artist’s experience in Abu Dhabi and offer a multi-sensory conversation. Stripped of skin tones, each hand is a vessel of human presence, with a bowl that mirrors the contents grasped, and whispers an invitation for the curious to engage.</p>
 
- <!-- image 3  -->
-    <div class="gallery-item">
-  <img src="Collections/Martnan.png"  class="clickable-img">
-     <div class="overlay-text">A pilot dressed in the traditional armor for male guards. The rich reds and copper contrast the blue shades that define the armor for the female warriors. This design incorporates less armored plates, meant to facilitate the movement for long-range combat</div>
-</div>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="What_The_Hands_Remember/Paint 1.png" class="clickable-img" alt="Paint 1">
+        <div class="overlay-text">These hands collect one of the essence attributes to Abu Dhabi, one of the most abundant substances</div>
+      </div>
 
+      <div class="gallery-item">
+        <img src="What_The_Hands_Remember/Paint 2.png" class="clickable-img" alt="Paint 2">
+        <div class="overlay-text">While the hands for this painting seem to be holding nothing, the fabric of the canvas is soaked with a rich fragance, a dominant product found across the emirates.</div>
+      </div>
 
-     <!-- image 4  -->
-       <div class="gallery-item">
-  <img src="Collections/outsiders.png" class="clickable-img">
-     <div class="overlay-text">A setting found deep in a winter land, emotions clash with responsibility, with duty, and sorrow.</div>
-</div>
+      <div class="gallery-item">
+        <img src="What_The_Hands_Remember/Paint 3.png" class="clickable-img" alt="Paint 3">
+        <div class="overlay-text">Across the many Souqs found in the emirates, one can find a variety of containers and bags filled with rich scented spices, the third essence chosen to speak for the culture of Abu Dhabi</div>
+      </div>
 
-     <!-- image 5  -->
-       <div class="gallery-item">
-  <img src="Collections/acolyteNew2.png" class="clickable-img">
-     <div class="overlay-text">The highest-ranking guardian. An Acolyte of the Mother's descdendant. The mask, an ornament of tradition and power, paired with a modest cloak, offer a glimpse of the mysteries hidden within  </div>
-</div>
-
-
-<!-- image 6  -->
-       <div class="gallery-item">
-  <img src="Collections/volcanoNew.png"  class="clickable-img">
-     <div class="overlay-text">An instrument of power, producing a melody of war, a resonance of strength, a call for a warrior.</div>
-</div>
-
-<!-- image 7  -->
-       <div class="gallery-item">
-  <img src="Collections/violin(2).png"  class="clickable-img">
-     <div class="overlay-text">Painted by sunlight, the violin becomes one with nature.</div>
-</div>
-
-<!-- Landscapes -->
-
-
-  <!-- surrealism 1 -->
-  <div class="gallery-item">
-  <img src="Collections/surrealismMayaNew.png"  class="clickable-img">
-   <div class="overlay-text">Engulfed by a blend of colors, the mayan warrior prepares himself for a game of life and death.  </div>
-</div>
-
-<!-- Landscape 1-->
-  <div class="gallery-item">
-  <img src="Collections/skull.jpeg"  class="clickable-img">
-   <div class="overlay-text">Driven by duty, this titan protects the delicate ecosystem around it, a creature of strength, resilence, and power no mortal can fight </div>
-</div>
-
-
-<!-- Landscapes 2 -->
-  <div class="gallery-item">
-  <img src="Collections/processSkull.png"  class="clickable-img">
-   <div class="overlay-text">Process sketch of the Skull Titan </div>
-</div>
-
- <!-- Landscape 3  -->
-    <div class="gallery-item">
- <img src="Collections/scales.jpg"  class="clickable-img">
-    <div class="overlay-text">Inspired by the illustrations and tales of Xibalba, the underworld of the Mayan culture, this landscape incorporates elements from tales and combines them with the scales of life and death from Ancient Egyptian mythology, producing a new story </div>
-</div>
-
-<div class="gallery-item quote-layout">
-  <div class="quote-box">
-    “There is nothing wrong with creating a fantasy out of reality”
+      <div class="gallery-item">
+        <img src="What_The_Hands_Remember/hands.png" class="clickable-img" alt="Hands Reference">
+        <div class="overlay-text">A photograph of one of the hands chosen as reference for the scented painting.</div>
+      </div>
+    </div>
   </div>
-</div>
 
+  <!-- GRAPHIC DESIGN CONTENT -->
+  <div id="graphicDesign" class="w3-container art w3-margin-top">
+    <h1 class="w3-text-black w3-center w3-padding-32"><b>Design Philosophy</b></h1>
+    <p>I believe graphic design should communicate ideas with clarity, intention, and visual impact, serving both people and society by making information meaningful and accessible. Designers play a key role in shaping culture and solving problems by identifying the core objective of a project and balancing aesthetics with functionality according to its purpose. Efficient design goes beyond personal preference or trends; it is memorable, purposeful, and, most importantly, clearly understood by its intended audience. Informed by my background and interests in cultural memory and storytelling, I merge research, symbolism, and contemporary design practices to create work that is visually engaging, conceptually grounded, and capable of connecting audiences to ideas, identities, and narratives in a thoughtful and lasting way.</p>
 
-</div>   <!-- closing gallery --> 
-</div>   <!-- closing COLLECTIONS --> 
-
-<!--...................................PROJECTS CONTENT ...........................-->
-<div id="Projects" class="w3-container art  w3-margin-top">
-
-
-     <h1 class="w3-text-black w3-center w3-padding-32">  <b>Projects</b></h1>
-
-        <h2 class="w3-text-black w3-center">Evocation 2025</h2>
-         <p>This project began with an unexpected encounter at a wall site, where fragments of a demolished building—glass, sand, seashells, and debris—revealed traces of personal and historical presence rather than absence. Drawn to these remnants, I explored how fragments function as conduits for memory, evoking a sense of the whole without fully reconstructing it. Using materials collected from the site alongside ceramic elements of my own making, I translated selected moments from conversations with former residents and the landlord into visual compositions depicting everyday yet intimate scenes of domestic life, labor, and aspiration. Influenced by practices that merge memory, imagination, and materiality, the work takes the form of a puzzle-like assemblage, reflecting the fragmented nature of memory itself. Rather than offering a complete narrative, the pieces act as material repositories, storing, honoring, and quietly gesturing toward the lives that once inhabited the now-demolished space.
-    </p>
-
-
-
-
-
-<div class="gallery">
-
-  <!-- EVOCATION -->
-
-  
- <!-- Project 1  -->
-    <div class="gallery-item">
- <img src="Evocation/0.jpeg" class="clickable-img">
-    <div class="overlay-text">Site of the Wall near Burjeel Hospital</div>
-</div>
-
-
-
-<!-- Project 2  -->
-    <div class="gallery-item">
- <img src="Evocation/0-1.jpeg" class="clickable-img">
-    <div class="overlay-text">Collection of stones from the site</div>
-</div>
-
-<!-- Project 3  -->
-    <div class="gallery-item">
- <img src="Evocation/0-3.jpeg" class="clickable-img">
-    <div class="overlay-text">Process of making and painting the ceramic pieces with clay, glazing paint, and etching tools</div>
-</div>
-
-
-<!-- Project 4  -->
-    <div class="gallery-item">
- <img src="Evocation/0-11.jpeg" class="clickable-img">
-    <div class="overlay-text">Final composition of the ceramic pieces</div>
-</div>
-
-
-<!-- End of Evocation -->
-
-
-<!-- Cultural Art -->
-
-    <h2 class="w3-text-black w3-center">What the Hands Remember 2025</h2>
-
-<p>Sensorial memories are a language of their own, spoken through the textures of sand, the scent of spice, the fragrance of perfume, and the gesture of hands. Rooting from a cultural journey of the UAE, these paintings gather the artist’s experience in Abu Dhabi and offer a multi-sensory conversation. Stripped of skin tones, each hand is a vessel of human presence, with a bowl that mirrors the contents grasped, and whispers an invitation for the curious to engage. 
-    </p>
-
-  <!-- What the Hands Remember 1  -->
-    <div class="gallery-item">
- <img src="What_The_Hands_Remember/Paint 1.png" class="clickable-img">
-    <div class="overlay-text">These hands collect one of the essence attributes to Abu Dhabi, one of the most abundant substances</div>
-</div>
-
-
-  <!-- What the Hands Remember 2  -->
-    <div class="gallery-item">
- <img src="What_The_Hands_Remember/Paint 2.png" class="clickable-img">
-    <div class="overlay-text">While the hands for this painting seem to be holding nothing,  the fabric of the canvas is soaked with a rich fragance, a dominant product found across the emirates. </div>
-</div>
-
-  <!-- What the Hands Remember 3  -->
-    <div class="gallery-item">
- <img src="What_The_Hands_Remember/Paint 3.png"  class="clickable-img">
-    <div class="overlay-text">Across the many Souqs found in the emirates, one can find a variety of containers and bags filled with rich scented spices, the third essence chosen to speak for the culture of Abu Dhabi</div>
-</div>
-
-<!-- What the Hands Remember 4  -->
-    <div class="gallery-item">
- <img src="What_The_Hands_Remember/hands.png" class="clickable-img">
-    <div class="overlay-text">A photograph of one of the hands chosen as reference for the scented painting.</div>
-</div>
-
-    
-</div>
-</div>
-
-<!--................................... END OF Comms Lab content (PROJECTS) ...........................-->
-<!-----------------------------------. GRAPHIC DESIGN CONTENT  --------------------------------------------->
-
-
-<div id="graphicDesign" class="w3-container art  w3-margin-top">
-
-
-     <h1 class="w3-text-black w3-center w3-padding-32">  <b>Design Philosophy</b></h1>
-         <p>I believe graphic design should communicate ideas with clarity, intention, and visual impact, serving both people and society by making information meaningful and accessible. Designers play a key role in shaping culture and solving problems by identifying the core objective of a project and balancing aesthetics with functionality according to its purpose. Efficient design goes beyond personal preference or trends; it is memorable, purposeful, and, most importantly, clearly understood by its intended audience. Informed by my background and interests in cultural memory and storytelling, I merge research, symbolism, and contemporary design practices to create work that is visually engaging, conceptually grounded, and capable of connecting audiences to ideas, identities, and narratives in a thoughtful and lasting way.
-    </p>
-
-
-
-
-<div class="gallery">
-
- <!-- Assignment 1  -->
+    <div class="gallery">
       <div class="gallery-item rounded-img">
-          <a href="https://nyuisabellahernandez.my.canva.site/design-vocabulary-poster">
-    <img src="GraphicDesign/FinalPoster.jpg" alt="Assignment1" >
-       <div class="overlay-text"> Design Vocabulary Poster. October 10, 2025</div>
+        <a href="https://nyuisabellahernandez.my.canva.site/design-vocabulary-poster">
+          <img src="GraphicDesign/FinalPoster.jpg" alt="Assignment 1">
+          <div class="overlay-text">Design Vocabulary Poster. October 10, 2025</div>
         </a>   
       </div>
 
-
-   <!-- Assignment 2  -->
       <div class="gallery-item rounded-img">
-          <a href="https://nyuisabellahernandez.my.canva.site/design-history-booklet">
-    <img src="GraphicDesign/coverBooklet.png" alt="Assignment2" >
-        <div class="overlay-text">Design History Booklet. November 12, 2025</div>
+        <a href="https://nyuisabellahernandez.my.canva.site/design-history-booklet">
+          <img src="GraphicDesign/coverBooklet.png" alt="Assignment 2">
+          <div class="overlay-text">Design History Booklet. November 12, 2025</div>
         </a>
-    </div>
+      </div>
 
-
-   <!-- Assignment 3  -->
       <div class="gallery-item rounded-img">
         <a href="https://nyuisabellahernandez.my.canva.site/visual-identity-design">
-    <img src="GraphicDesign/FinalLogo.png" alt="Assignment3" >
-        <div class="overlay-text">Visual Identity Group Project. November 26, 2025</div>
-         </a>
-    </div>
-
-
-<div class="gallery-item quote-layout">
-  <div class="quote-box">
- These projects were developed as part of a graphic design course to explore design across conceptual, historical, and professional contexts.
-  </div>
-</div>
-
- <!-- poster 4  -->
-      <div class="gallery-item rounded-img">
-    <img src="GraphicDesign/ClimbingClubPosterFinal.pdf" alt="poster4" >
-        <div class="overlay-text">NYUAD Climbing Club Poster. January 25, 2025</div>
-    </div>
-
-
-
-</div> <!-- closing gallery -->
-</div> <!-- closing #graphicDesign -->
-
-
-<!----------------------------------- END OF GRAPHIC DESIGN CONTENT  --------------------------------------------->
-<!---------------------------------  About Section --------------------------------->
-
-<div id="About" class="art">
-  <footer class="w3-center w3-padding-32">
-    <h2><b>About</b></h2>
-
-    <img src="Images/Profile.jpeg" class="w3-circle" alt="Me" style="width:300px;height:450px;">
-
-    <form style="margin:auto;width:60%">
-      <p>
-        Isabella Hernandez is a visual artist from Guatemala who combines digital and traditional techniques to explore the intersection of cultural heritage and fantasy. Her work draws inspiration from pre-Columbian civilizations and her Guatemalan roots, while also incorporating original characters, creatures, and settings developed for a fantasy novel in progress.
-      </p>
-
-      <div class="w3-section w3-text-purple" style="margin-top:48px">
-        <h5><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> NYU Abu Dhabi, Abu Dhabi, United Arab Emirates</h5>
-        <h5><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +971 50 359 8265</h5>
-        <h5><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: imh9299@nyu.edu</h5>
+          <img src="GraphicDesign/FinalLogo.png" alt="Assignment 3">
+          <div class="overlay-text">Visual Identity Group Project. November 26, 2025</div>
+        </a>
       </div>
-    </form>
-  </footer>
-</div>
 
+      <div class="gallery-item quote-layout">
+        <div class="quote-box">
+          These projects were developed as part of a graphic design course to explore design across conceptual, historical, and professional contexts.
+        </div>
+      </div>
 
- 
-<div id="imageModal" class="modal">
-  <span class="close">&times;</span>
+      <div class="gallery-item rounded-img">
+        <img src="GraphicDesign/ClimbingClubPosterFinal.pdf" alt="Poster 4">
+        <div class="overlay-text">NYUAD Climbing Club Poster. January 25, 2025</div>
+      </div>
+    </div> <!-- closing gallery -->
+  </div> <!-- closing #graphicDesign -->
 
-  <div class= "modal-inner">
-  <img class="modal-content" id="modalImg">
-  <div class="caption" id="modalCaption"></div>  
+  <!-- About Section -->
+  <div id="About" class="art">
+    <footer class="w3-center w3-padding-32">
+      <h2><b>About</b></h2>
+
+      <img src="Images/Profile.jpeg" class="w3-circle" alt="Me" style="width:100%; max-width:300px; height:auto;">
+
+      <form style="margin:auto; width:90%; max-width:600px;">
+        <p>
+          Isabella Hernandez is a visual artist from Guatemala who combines digital and traditional techniques to explore the intersection of cultural heritage and fantasy. Her work draws inspiration from pre-Columbian civilizations and her Guatemalan roots, while also incorporating original characters, creatures, and settings developed for a fantasy novel in progress.
+        </p>
+
+        <div class="w3-section w3-text-purple" style="margin-top:48px">
+          <h5><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> NYU Abu Dhabi, Abu Dhabi, United Arab Emirates</h5>
+          <h5><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +971 50 359 8265</h5>
+          <h5><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: imh9299@nyu.edu</h5>
+        </div>
+      </form>
+    </footer>
   </div>
+
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-inner">
+      <img class="modal-content" id="modalImg" alt="Modal image view">
+      <div class="caption" id="modalCaption"></div>  
+    </div>
   </div>
 
-
-
- <!-- link to javascript file -->
-<script src="script.js"></script>
-
+  <!-- Link to javascript file -->
+  <script src="script.js"></script>
 
 </body>
 </html>
